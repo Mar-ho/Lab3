@@ -8,10 +8,10 @@ namespace MarcinHoffmannLab3
     {
         static void Main(string[] args)
         {
-            List<char> zgadywaneSlowo = new List<char>();               // lista liter tworząca zadywane słowo
+            List<char> zgadywaneSlowo = new List<char>();               // lista liter tworząca zgadywane słowo
             List<char> podaneLitery = new List<char>();                 // lista liter wpisanych przez odgadującego
-            int iloscLiter = 0;                                         // ilość liter szukanego słowa
-            int iloscProb = 2;                                          // maksymalna ilość prób będzie = ilości liter szukanego słowa + 2
+            int iloscLiter = 0;                                         // ilość liter zgadywanego słowa
+            int iloscProb = 2;                                          // maksymalna ilość prób będzie = ilości liter zgadywanego słowa + 2
             int odgadniete = 0;                                         // ilość odgadniętych liter w słowie
 
             Console.WriteLine("Podaj wyraz do odgadnięcia dla gracza.");
